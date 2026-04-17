@@ -5,7 +5,7 @@ A Django REST API that generates and stores user profiles using external APIs (G
 ---
 
 ## Base URL
-``` https://url.com ```
+``` https://hng-stage-one-ssdlive7663-y5b5ptmu.leapcell.dev ```
 
 ---
 
