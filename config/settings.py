@@ -77,7 +77,6 @@ DATABASES = {
     'default': dj_database_url.config(
         default=config('DATABASE_URL'),
         conn_max_age=60,
-        ssl_require=True
     )
 }
 
@@ -125,4 +124,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # CORS settings
 # CORS_ALLOWED_ORIGINS = config('CORS_ALLOWED_ORIGINS', default='*', cast=Csv())
-CORS_ALLOW_ALL_ORIGINS = config('CORS_ALLOW_ALL_ORIGINS', default=False, cast=bool)
+CORS_ALLOW_ALL_ORIGINS = True
