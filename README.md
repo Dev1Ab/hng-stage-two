@@ -1,4 +1,4 @@
-# Backend Wizards — Stage 1 API
+# # HNG-Internship Stage 1
 
 A Django REST API that generates and stores user profiles using external APIs (Genderize, Agify, Nationalize).
 
