@@ -23,3 +23,10 @@ class Person(models.Model):
 
     def __str__(self):
         return f"{self.name} ({self.country_name})"
+
+    class Meta:
+        indexes = [
+            models.Index(fields=["gender"]),
+            models.Index(fields=["age"]),
+            models.Index(fields=["country_id"]),
+        ]
